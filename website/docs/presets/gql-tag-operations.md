@@ -268,7 +268,7 @@ const FooQuery = gql(/* GraphQL */ `
 `);
 ```
 
-**NOTE**: In case you are using fragments you MUST use the gql-tag-operations plugin as otherwise the `gql` calls that reference global fragments will cause runtime errors, as the `gql` operation cannot find the global fragment.
+**NOTE**: In case you are using fragments you MUST use the gql-tag-operations babel plugin as otherwise, the `gql` calls that reference global fragments will cause runtime errors, as the `gql` operation cannot find the global fragment.
 
 ```ts
 import { gql } from 'urql';
