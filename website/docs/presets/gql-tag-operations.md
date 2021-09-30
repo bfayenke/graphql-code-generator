@@ -254,7 +254,7 @@ declare module '@urql/core' {
 }
 ```
 
-Now you can simply use your `gql` function imported from `@url/core` in your application code for having fully typed document nodes.
+Now you can simply use your `gql` function imported from `@urql/core` in your application code for having fully typed document nodes.
 
 ```ts
 import { gql } from 'urql';
